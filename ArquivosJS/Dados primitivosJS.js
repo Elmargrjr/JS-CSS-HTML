@@ -40,7 +40,35 @@ if(nome2){
 //Strings e números são tratados como true
 //0 e strings vazias são tratadas como false
 
+
+//O comando + junta strings, concatena, enquanto os demais são operações matemáticas
+
 console.log ("5" + 1); // 51 (string)
+console.log ("7" + " Cristiano Ronaldo");
 console.log ("5" - 1); // 4 (número)
 console.log ("5" * 2); // 10 (número)
 console.log ("5" / 2); // 2.5 (número)
+
+//Da para fazer coerção explícita
+let numero = 23;
+let NumeroEmString = String(numero);
+
+//Ao contrário
+let StringDeNumero = "587";
+let StringDeNumeroParaNumero = Number(StringDeNumero);
+
+//Outros jeitos
+let OutroNumero = (20).toString();
+
+console.log (typeof numero, numero);
+console.log (typeof NumeroEmString, NumeroEmString);
+console.log (typeof StringDeNumero, StringDeNumero);
+console.log (typeof StringDeNumeroParaNumero, StringDeNumeroParaNumero);    
+
+//Se tentassemos converter algo que não é um número para número, o resultado seria NaN (Not a Number)
+let StringInvalida = "Neymar";
+let StringInvalidaParaNumero = Number(StringInvalida);
+console.log (StringInvalida);
+console.log (typeof StringInvalidaParaNumero, StringInvalidaParaNumero);
+
+
