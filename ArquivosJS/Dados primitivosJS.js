@@ -1,6 +1,3 @@
-let teste = "Olá, Mundo!";
-console.log (teste);
-
 let nome = "João";
 console.log (nome);
 
