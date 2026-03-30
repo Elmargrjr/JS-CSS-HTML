@@ -126,3 +126,4 @@ console.log ("é estritamente igual", 5 === "5");
 console.log("é igual?", 1 == 1 ? "Sim" : "Não");
 //condicional ? Verdadeiro : Falso
 
+
