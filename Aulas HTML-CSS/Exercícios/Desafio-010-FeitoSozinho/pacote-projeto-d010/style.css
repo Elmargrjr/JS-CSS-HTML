@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+#Foto3{
+    text-align: center;
+}
+
+#Foto2{
+    text-align: center;
+}
+
+#Foto {
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: center;
+    padding:20px;
+    background-image: linear-gradient(to bottom, #1dff1d7e, #005000cc);
+}
+
+nav{
+    text-align: left;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #005000cc, #004700);
+}
+
+nav > a{
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header > p{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgba(114, 228, 114, 0.563);
+    margin: 0px;
+}
+
+main{
+    margin: auto auto 10px auto;
+    height: 2000px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 0 0 10px 10px;
+}
+
+main > h1{
+    margin: 0px;
+    padding: 20px 0px 0px 30px;
+}
+
+main > p{
+    text-align: justify;
+    margin: 30px;
+}
+
+main > h2{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.525), white);
+    margin: 0px 0px 0px 30px;
+}
+
+#Final{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#Cab{
+    color: white;
+    background-color: #004700;
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div > p{
+    margin: 20px;
+}
+
+
+footer{
+    background-color: rgb(22, 83, 16);
+    padding: 2px;
+    text-align: center;
+}
+
+footer > p{
+    padding: 5px;
+    margin: 0px;
+}
+
+#Final ul{
+    column-count: 2;
+}
